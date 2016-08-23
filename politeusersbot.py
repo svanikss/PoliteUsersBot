@@ -26,4 +26,4 @@ def run_bot():
     print("Comment loop finished, bot sleeping")
 while True:
     run_bot()
-    time.sleep(30)
+    time.sleep(60)
