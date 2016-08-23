@@ -1,0 +1,13 @@
+#List ofSubreddit the bot is banned from:
+
+1) /r/news
+2) /r/heroesofthestorm
+3) /r/india
+4) /r/Drugs
+5) /r/Mariners
+6) /r/ShitRedditSays
+7) /r/pokemontrades
+8) /r/baseball
+9) /r/politics
+10) /r/The_Donald
+11) /r/flashlight
