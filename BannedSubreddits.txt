@@ -71,3 +71,4 @@
 69) /r/safc
 70) /r/canada
 71) /r/KotakuInAction
+72) /r/europe
