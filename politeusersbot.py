@@ -25,5 +25,8 @@ def run_bot():
             cache.append(comment.id)
     print("Comment loop finished, bot sleeping")
 while True:
-    run_bot()
-    time.sleep(60)
+    try:
+        run_bot()
+        time.sleep(60)
+    except:
+        pass
