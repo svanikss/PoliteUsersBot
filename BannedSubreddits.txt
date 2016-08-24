@@ -66,3 +66,4 @@
 64) /r/hardwareswap
 65) /r/ArenaHS
 66) /r/space
+67) /r/buildapc
