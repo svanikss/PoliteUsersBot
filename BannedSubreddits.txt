@@ -52,3 +52,4 @@
 50) /r/aww
 51) /r/hometheater
 52) /r/Android
+53) /r/history
