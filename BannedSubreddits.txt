@@ -70,3 +70,4 @@
 68) /r/AskHistorians
 69) /r/safc
 70) /r/canada
+71) /r/KotakuInAction
