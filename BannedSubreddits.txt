@@ -72,3 +72,4 @@
 70) /r/canada
 71) /r/KotakuInAction
 72) /r/europe
+73) /r/technology
