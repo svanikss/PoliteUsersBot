@@ -20,7 +20,7 @@ def run_bot():
         isMatch = any(string in comment_text for string in words_to_match)
         if comment.id not in cache and isMatch:
             print("Match found! Comment ID: " + comment.id)
-            comment.reply("Thank you for being a polite user on reddit! \n\n*This bot was created by [kooldawgstar](http://reddit.com/u/kooldawgstar), if this bot is an annoyance to your subreddit feel free to ban it. [Source](http://www.github.com/kooldawgstar/PoliteUsersBot)*")
+            comment.reply("Thank you for being a polite user on reddit! \n\n*This bot was created by [kooldawgstar](http://reddit.com/u/kooldawgstar), if this bot is an annoyance to your subreddit feel free to ban it. [Source](http://www.github.com/kooldawgstar/PoliteUsersBot) For more information check out /r/Polite_Users_Bot!*")
             print("Reply Sucessful")
             cache.append(comment.id)
     print("Comment loop finished, bot sleeping")
