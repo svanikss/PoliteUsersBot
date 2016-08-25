@@ -107,3 +107,11 @@
 105) /r/blackops3
 106) /r/AskMen
 107) /r/fatlogic
+108) /r/nfl
+109) /r/tifu
+110) /r/SakuraGakuin
+111) /r/techsupport
+112) /r/hillaryclinton
+113) /r/food
+114) /r/AskEconomics
+115) /r/CrappyDesign
