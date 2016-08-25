@@ -75,3 +75,7 @@
 73) /r/technology
 74) /r/help
 75) /r/DnDBehindTheScreen
+76) /r/manga
+77) /r/legaladvice
+78) /r/InfertilityBabies
+79) /r/Random_Acts_Of_Amazon
