@@ -1,4 +1,4 @@
-import praw
+Giimport praw
 import time
 
 r = praw.Reddit(user_agent = "A bot to thank users for being nice on reddit created by /u/kooldawgstar")
