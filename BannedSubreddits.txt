@@ -81,3 +81,6 @@
 79) /r/Random_Acts_Of_Amazon
 80) /r/UnresolvedMysteries
 81) /r/texas
+82) /r/Fantasy
+83) /r/Eve
+84) /r/AppHookup
