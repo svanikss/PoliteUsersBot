@@ -132,3 +132,7 @@
 130) /r/beermoney
 131) /r/GlobalOffensiveTrade
 132) /r/California
+133) /r/iOSBeta
+134) /r/KerbalSpaceProgram
+135) /r/PokemonForAll
+136) /r/Undertale
