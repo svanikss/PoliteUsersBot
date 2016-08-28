@@ -198,3 +198,13 @@
 196) /r/GlobalOffensive
 197) /r/PokemonShuffle
 198) /r/Paladins
+199) /r/tf2
+200) /r/noveltranslations
+201) /r/army
+202) /r/LateShow
+203) /r/Spanish
+204) /r/asoiaf
+205) /r/stopdrinking
+206) /r/pics
+207) /r/fastfood
+208) /r/javascript
