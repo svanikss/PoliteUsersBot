@@ -40,9 +40,33 @@ def run_bot():
             print("Reply Sucessful")
             cache.append(comment.id)
     print("Comment loop finished, bot sleeping")
+    
+#Blacklist
+def look_at_replies():
+    print("Looking at replies")
+    for comment in r.get_unread(limit=None):
+        command = comment.body.strip().lower()
+        if command == "stop":
+            blacklist.append(comment.author.name)
+            commanet.reply("You have been blacklisted!")
+            print("User Blacklisted")
+            r.message.mark_as_read()
+        except:
+            pass
+        
+#Delete Downvoted Comments
+def delete_downvoted_comments():
+    if comment.score < 1:
+        try:
+            comment.delete()
+            print("Comment Deleted")
+        except:
+            pass
 while True:
     try:
         run_bot()
+        look_at_replies()
+        delete_downvoted_comments()
         time.sleep(60)
     except:
         pass
