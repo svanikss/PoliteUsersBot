@@ -1,9 +1,25 @@
 Giimport praw
 import time
 
+#Configuration options.
+
+#OAuth config. See https://praw.readthedocs.io/en/stable/pages/oauth.html for more info.
+#Get a client id and client secret by creating an app on Reddit
+clientid = ""
+clientsecret = ""
+#Leave this empty at first, then run the script. Do the thing on Reddit, then enter the 'code' hex
+#key from the 127.0.0.1 url here.
+authcode = ""
+
 r = praw.Reddit(user_agent = "A bot to thank users for being nice on reddit created by /u/kooldawgstar")
 print("Logging in...")
-r.login("USERNAME","PASSWORD", disable_warnings = True)
+r.set_oauth_app_info(client_id=clientid,client_secret=clientsecret,redirect_uri='http://127.0.0.1:65010/authorize_callback')
+if authcode == "":
+    url = r.get_authorize_url('uniqueKey', 'identity read submit', True)
+    print("URL: "+url)
+    exit(0)
+access_information = r.get_access_information(authcode)
+r.set_access_credentials(**access_information)
 
 words_to_match = ['Please', 'thank you', 'You are welcome', 'May I', 'Excuse me', 'Pardon me', 'sorry', 'thanks ', ' thanks']
 cache = []
