@@ -1,4 +1,4 @@
-Giimport praw
+import praw
 import time
 
 #Configuration options.
